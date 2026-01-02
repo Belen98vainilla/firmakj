@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+* {
+  user-select: none;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.firma {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.imagen {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 0 14px rgba(0,0,0,0.45);
+}
+
+.imagen img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(230,199,255,0.25),
+    rgba(202,167,255,0.25),
+    rgba(242,215,255,0.25)
+  );
+}
+
+.titulo {
+  margin-top: 8px;
+  font-size: 19px;
+  font-weight: 600;
+  background: linear-gradient(90deg,#e6c7ff,#caa7ff,#f2d7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #d8d8d8;
+  margin-top: 4px;
+  font-style: italic;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Firma creada por: Belén | Uso personal -->
+
+<div class="firma">
+  <div class="imagen">
+    <img src="https://favim.com/pd/s11/orig/8/854/8549/85494/gif-kendall-jenner-Favim.com-8549423.gif">
+    <div class="overlay"></div>
+  </div>
+
+  <div class="titulo">Kendall Energy</div>
+  <div class="sub">Soft soul, strong presence</div>
+</div>
+
+</body>
+</html>
